@@ -1,0 +1,24 @@
+.RegisterView {
+  text-align: center;
+}
+
+.RegisterView-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.RegisterView-header {
+  background-color: #FFFFFF;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
+
+.RegisterView-intro {
+  font-size: large;
+}
+
+@keyframes RegisterView-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

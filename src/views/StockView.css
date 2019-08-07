@@ -1,0 +1,24 @@
+.StockView {
+  text-align: center;
+}
+
+.StockView-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.StockView-header {
+  background-color: #FFFFFF;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
+
+.StockView-intro {
+  font-size: large;
+}
+
+@keyframes StockView-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
